@@ -1,0 +1,31 @@
+*{
+    padding:0 ;
+    margin: 0;
+/*      border: 1px solid black;*/
+}
+.container{
+    width: 700;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}   
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+header>li {
+    display: flex;
+}
+header>li>ul {
+    list-style-type: none;
+    margin-left: 1.5rem;
+}
+header>li>ul:first-child>a {
+    border-bottom: 5px solid rgb(59, 59, 59);
+}
